@@ -28,11 +28,11 @@ def lineplot(x_data, y_data, modes, median, average, x_label="", y_label="", tit
     plt.legend()
     plt.show()
 
-# data = sorted(list(map(int, input("Enter your data: ").split())))
-data = []
+data = sorted(list(map(int, input("Enter your data: ").split())))
+# data = []
 
-for i in range(10000):
-    data.append(random.randint(0, 100))
+# for i in range(10000):
+#     data.append(random.randint(0, 100))
 
 data = sorted(data)
 
